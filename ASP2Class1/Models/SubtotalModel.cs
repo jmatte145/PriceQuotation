@@ -18,6 +18,8 @@ namespace PriceQuotation.Models
             public decimal? DiscountAmount { get; set; }
 
             public decimal? Total { get; set; }
+
+            // Methods to calculate the Discount Amount and Final Item Price // 
             
             public decimal? CalculateDiscount()
             {
